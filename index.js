@@ -1,6 +1,6 @@
 
 function updateMarsCountDown () {
-    var liftoff = new Date('01 01 2020').getTime()
+    var liftoff = Date.parse('2020-1-1')
     var zeroPad = function (str) {
         return ('0' + str).slice(-2)
     }
