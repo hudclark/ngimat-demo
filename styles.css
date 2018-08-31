@@ -237,6 +237,7 @@ body div, img {
 
 .news .card {
     display: block;
+    height: initial;
     max-width: 500px;
     margin: 0 auto 32px auto;
     text-align: left;
