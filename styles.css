@@ -212,9 +212,6 @@ body div, img {
 
 .card .image {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .card .image:after {
@@ -228,6 +225,8 @@ body div, img {
     max-width: 100%;
     max-height: 100%;
     padding: 8px;
+    top: 0; right: 0; bottom: 0; left: 0;
+    margin: auto;
 }
 
 /* News */
